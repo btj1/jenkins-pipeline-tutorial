@@ -1,5 +1,5 @@
 FROM httpd:latest 
 
-COPY docker.html /var/www/html/index.html
+COPY docker.html /usr/local/apache2/htdocs/index.html
 
 
