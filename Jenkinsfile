@@ -6,7 +6,7 @@ pipeline {
     // This section contains environment variables which are available for use in the
     // pipeline's stages.
     environment {
-	    region = "us-east-1"
+	    region = "eu-central-1"
         docker_repo_uri = "537557632193.dkr.ecr.eu-central-1.amazonaws.com/sample-app"
 		task_def_arn = ""
         cluster = ""
