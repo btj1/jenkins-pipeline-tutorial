@@ -9,7 +9,7 @@ pipeline {
 	    region = "eu-central-1"
         docker_repo_uri = "537557632193.dkr.ecr.eu-central-1.amazonaws.com/sample-app"
 		task_def_arn = "arn:aws:ecs:eu-central-1:537557632193:task-definition/test-sample-app"
-        cluster = "sample-app"
+        cluster = "test-sample-app"
         exec_role_arn = "arn:aws:iam::537557632193:role/ecsTaskExecutionRole"
     }
     
